@@ -1,11 +1,11 @@
 import React from 'react';
-import BackToTop from './components/BackToTop';
+//import BackToTop from './components/BackToTop';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Works from './components/Works';
 import Title from './components/Title';
-import MoreWorks from './components/MoreWorks';
+//import MoreWorks from './components/MoreWorks';
 import About from './components/About';
 
 const Folio = () => {
