@@ -91,9 +91,10 @@ const About = () => {
                         <div className={classes.block}>
                             <Typography className={classes.question}>Who am I?</Typography>
                             <Typography className={classes.answer}>
-                                Hello, my name is Shamila Mariam Naiga. I am a software enigneering major 
-                                at the Florida Institute of Technology, graduating May 2022. I am a natural-born
-                                problem solver looking for a job opportunity that I can thrive in.
+                                Hello, my name is Shamila Mariam Naiga, but I usually go by Mariam. I am a 
+                                software enigneering major at the Florida Institute of Technology, graduating May 
+                                2022. I am a natural-born problem solver looking for a job opportunity 
+                                that I can thrive in.
                             </Typography>
                         </div>
                         <div className={classes.block}>
@@ -101,7 +102,7 @@ const About = () => {
                             <Typography className={classes.answer}>
                                 My main concentrations are, but aren't limited to,  web application development and 
                                 data science. Learning new skills is what I love doing most, especially when it 
-                                comes to coding and its various languages.
+                                comes to coding and its various languages and concepts.
                             </Typography>
                         </div>
                         <div className={classes.block}>
