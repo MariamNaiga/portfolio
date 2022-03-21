@@ -37,8 +37,8 @@ export const featured_works = [
         image: project_zoe_img,
         buttons: [
             ["Site", "https://app.worshipharvest.org/#/"], 
-            ["Client Repositiory", "https://github.com/kanzucodefoundation/project-zoe-client"], 
-            ["Server Repositiory", "https://github.com/kanzucodefoundation/project-zoe-server"]
+            ["Repositiory", "https://github.com/kanzucodefoundation/project-zoe-client"], 
+            ["API Repositiory", "https://github.com/kanzucodefoundation/project-zoe-server"]
         ]
     },
 ]

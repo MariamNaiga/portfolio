@@ -1,6 +1,6 @@
 import React from 'react';
 //import BackToTop from './components/BackToTop';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Works from './components/Works';
@@ -12,7 +12,7 @@ const Folio = () => {
     return (
         <div>
             <Header />
-            <Contact />
+            
             {/*<BackToTop />*/}
             <div style={{marginBottom: "50px"}}>
                 <Title name="Featured Works"/>
@@ -26,7 +26,9 @@ const Folio = () => {
                 <Title name="About"/>
                 <About />
             </div>
+            {/*<Contact />*/}
             <Footer />
+            
         </div>
     )
 }

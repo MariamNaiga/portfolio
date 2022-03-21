@@ -80,14 +80,14 @@ const About = () => {
         <div className={classes.container}>
             <div className={classes.content}>
                 <Grid container spacing={3} style={{width: "100%"}}>
-                    <Grid item xs={12} s={12} md={4}>
+                    <Grid item xs={12} s={12} md={12} lg={4}>
                         <img 
                             className={classes.image}
                             src={me}
                             alt=""
                         />
                     </Grid>
-                    <Grid item xs={12} s={12} md={8} style={{border: "none"}}>
+                    <Grid item xs={12} s={12} md={12} lg={8} style={{border: "none"}}>
                         <div className={classes.block}>
                             <Typography className={classes.question}>Who am I?</Typography>
                             <Typography className={classes.answer}>

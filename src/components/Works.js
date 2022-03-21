@@ -12,7 +12,7 @@ const useStyles = makeStyles({
         margin: "50px 100px 100px 100px",
     },
     grid: {
-        height: "900px",
+        height: "700px",
         border: `1px solid ${$pink}`,
         textAlign: "center",
         opacity: 1,
@@ -47,9 +47,9 @@ const useStyles = makeStyles({
         //top: "50%",
         "& .heading": {
             color: $white,
-            fontFamily: "Poppins",
+            fontFamily: "Poppins, sans-serif",
             fontWeight: 900,
-            fontSize: "4.3em",
+            fontSize: "3.5em",
             textTransform: "uppercase",
             textAlign: "left",
             marginTop: "-30px",
@@ -62,15 +62,14 @@ const useStyles = makeStyles({
             textTransform: "uppercase",
             color: $white,
             padding: "5px 20px",
-            //fontFamily: "Playfair, serif",
             fontFamily: "Poppins, sans-serif",
-            fontSize: ".9em",
+            fontSize: "1em",
             fontWeight: 500,
             letterSpacing: 2,
             border: `1px solid ${$pink}`,
             borderRadius: 0,
             backgroundColor: "transparent",
-            margin: "5px",
+            margin: "7px",
             transform: "ease-in 2s",
             //cursor: "none",
             "&:before": {
@@ -88,6 +87,19 @@ const useStyles = makeStyles({
                 color: $black,
             }
         },
+        "& .tags": {
+            textTransform: "uppercase",
+            color: $pink,
+            fontFamily: "Poppins, sans-serif",
+            fontSize: ".9em",
+            fontWeight: 600,
+            letterSpacing: 1,
+            //float: "left",
+            paddingTop: "20px",
+            //paddingLeft: "10px",
+            textAlign: "right",
+            //margin: "7px",
+        }
     },
     media: {
         position: "relative", 
@@ -115,13 +127,13 @@ const useStyles = makeStyles({
             fontWeight: 600,
             letterSpacing: 1,
             //marginLeft: "20px",
-            position: "absolute",
-            width: "300px",
-            top: "17.7%", 
-            left: "-20%",
-            float: "left",
-            transform: "rotate(90deg)",
-            backgroundColor: $black,
+             position: "absolute",
+           // width: "300px",
+           // top: "17.7%", 
+            //left: "-20%",
+            //float: "left",
+            //transform: "rotate(90deg)",
+            //backgroundColor: $black,
             padding: "10px 15px",
             textAlign: "center",
             // border: "1px solid #ffcea2",
@@ -162,7 +174,12 @@ const Works = () => {
                                                         >{btn[0]}</Button> 
                                                     )
                                                 })} 
-                                            </div>                                           
+                                            </div> 
+                                            <div>
+                                                <Typography className="tags">
+                                                    {it.tags}
+                                                </Typography>
+                                            </div>                                          
                                         </div>
                                     </CardContent>
                                     <CardMedia className={classes.media}>
@@ -170,10 +187,7 @@ const Works = () => {
                                             className="image" 
                                             src={it.image}
                                             alt=""
-                                        />
-                                        <Typography className="tags">
-                                            {it.tags}
-                                        </Typography> 
+                                        /> 
                                         
                                     </CardMedia>
                                 </Card>

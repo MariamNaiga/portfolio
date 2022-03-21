@@ -4,20 +4,22 @@ import resume from '../data/Resume.pdf';
 
 const useStyles = makeStyles({
     left: {
-        position: "fixed", 
-        bottom: "35%", 
-        left: -240, 
-        transform: "rotate(-90deg)", 
-        width: "550px",
-        textAlign: "left"
+       // position: "fixed", 
+       // bottom: "35%", 
+       // left: -240, 
+       // transform: "rotate(-90deg)", 
+       // width: "550px",
+        zIndex: 1,
+        textAlign: "center"
     },
     right: {
-        position: "fixed", 
-        top: "35%", 
-        right: -240, 
-        transform: "rotate(90deg)", 
-        width: "550px", 
-        textAlign: "left",
+       // position: "fixed", 
+        //top: "35%", 
+        //right: -240, 
+        //transform: "rotate(90deg)", 
+        //width: "550px", 
+        zIndex: 1,
+        textAlign: "center",
     },
     btn: {
         color: "#FFFFFF",
